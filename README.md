@@ -4,4 +4,8 @@ To play, run the tictactoe.py file. Once the game window opens, you can change t
 # UNBEATABLE AI   
 The ai in this game is unbeatable. The ai uses the minimax algorithm to find it's next best move. Because tic tac toe is not a huge game(like chess), the state space is pretty small. This allows us to scan through the whole state space space without the need for a heuristic function, since scanning through the whole state space is possible in a relatively short amount of time. Once we reach a terminal case(case where game over) in our search, we check the result. As mentioned, we can search thorugh the entire state space and can find the best move for any position. This is different when compared to a game like chess, since in chess the state space is much too large and we cannot reach every terminal case during our search(that would take too much time). So for games like chess we require a heuristic function, which estimates how good a certain position of the board is for each player without the game being over necessairly. The search in the state space for the next move would then go up until some limited depth(in order to not take too long) and would use the heuristic function to estimate which state 15 moves down the line, for example, would be best for the ai player. It would then chose the move which leads it to that best possible state. But because in tic tac toe the state space is small, we do not need this heuristic function and can scan through the whole state space without issue.   
 
-![image](https://github.com/user-attachments/assets/d7556656-b2fd-4b95-8245-a8682c7289ca)
+![image](https://github.com/user-attachments/assets/d7556656-b2fd-4b95-8245-a8682c7289ca)   
+
+![image](https://github.com/user-attachments/assets/4bf3ef3d-3e0e-47d8-ad75-433f33e2aac0)   
+
+![image](https://github.com/user-attachments/assets/096b0d64-3f21-4456-b9bb-e30417b7905b)
